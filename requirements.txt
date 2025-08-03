@@ -1,0 +1,42 @@
+# ==============================================================================
+# Requirements for the DM2F-UC-Model Project
+#
+# This file specifies the exact versions of Python packages required to
+# reproduce the results of the paper "DM2F-UC-Model."
+#
+# Assumed Environment:
+# - Python 3.9+
+# - CUDA 12.1 (for GPU support, see PyTorch installation notes)
+#
+# To install all dependencies, run:
+# pip install -r requirements.txt
+# ==============================================================================
+
+# --- Core Deep Learning & Numerics ---
+# NOTE: The torch version below is for a CUDA 12.1 environment.
+# If you have a different CUDA version or are using CPU, please get the
+# appropriate command from the official PyTorch website: https://pytorch.org/get-started/locally/
+torch==2.1.2+cu121
+numpy==1.26.2
+scipy==1.11.4
+
+# --- Data Handling and Manipulation ---
+pandas==2.1.3
+
+# --- Machine Learning & Signal Processing ---
+scikit-learn==1.3.2
+scikit-image==0.22.0
+PyWavelets==1.5.0
+joblib==1.3.2
+
+# --- Visualization & Progress Bars ---
+matplotlib==3.8.2
+tqdm==4.66.1
+
+# --- Experiment Tracking (Optional) ---
+# Your code supports Weights & Biases, so it is included here.
+wandb==0.16.1
+
+# --- Typing & Compatibility ---
+# Required for specific type hints used in the code.
+typing_extensions==4.8.0

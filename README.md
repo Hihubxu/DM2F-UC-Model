@@ -20,15 +20,10 @@ Our proposed model, DM²F-UC, provides a robust perceptual foundation for embodi
 
 ## Requirements
 
-To set up the environment and install the necessary libraries, please run the following command:
-
-### Tested Environment:
-Hardware Requirements: 12th Gen Intel® Core™ i9-12900K Processor, clock speed 3.20 GHz, 64 GB system RAM; two NVIDIA GeForce RTX 3090 GPUs, each with 24 GB GDDR6X RAM.
-Operating System: Ubuntu 20.04
-Python Version: 3.10
-Python Libraries: numpy, pandas, tensorflow, keras
-
-
+### Tested Environment
+-   **Operating System:** Ubuntu 20.04
+-   **Python Version:** 3.10+
+-   **Hardware:** 12th Gen Intel Core i9, 64 GB RAM; 2x NVIDIA GeForce RTX 3090 (24 GB)
 
 ### Installation
 To install all required Python libraries, simply run the following command. This will use the provided `requirements.txt` file to set up the environment correctly.
@@ -37,7 +32,6 @@ To install all required Python libraries, simply run the following command. This
 pip install -r requirements.txt```
 
 ---
-
 
 ## Usage
 

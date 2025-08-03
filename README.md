@@ -29,7 +29,8 @@ Our proposed model, DM²F-UC, provides a robust perceptual foundation for embodi
 To install all required Python libraries, simply run the following command. This will use the provided `requirements.txt` file to set up the environment correctly.
 
 ```bash
-pip install -r requirements.txt ```
+pip install -r requirements.txt
+```
 
 ---
 

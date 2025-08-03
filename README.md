@@ -2,7 +2,7 @@
 Official code for the DM²F-UC model. This model enhances joint perception from a single IMU by fusing temporal/time-frequency features and quantifying uncertainty.
 # DM2F-UC-Model
 
-This repository contains the official PyTorch implementation for the paper: **"DM2F-UC-Model"**.
+This repository contains the official PyTorch implementation for the paper: **"DM2F-UC-Model"**(2025).
 
 Our proposed model, DM²F-UC, provides a robust perceptual foundation for embodied agents by enhancing joint perception from a single IMU. It synergistically fuses temporal and time-frequency features and integrates end-to-end uncertainty modeling to enable risk-aware control.
 
@@ -22,13 +22,22 @@ Our proposed model, DM²F-UC, provides a robust perceptual foundation for embodi
 
 To set up the environment and install the necessary libraries, please run the following command:
 
-Environment Requirements:
+### Tested Environment:
 Hardware Requirements: 12th Gen Intel® Core™ i9-12900K Processor, clock speed 3.20 GHz, 64 GB system RAM; two NVIDIA GeForce RTX 3090 GPUs, each with 24 GB GDDR6X RAM.
 Operating System: Ubuntu 20.04
 Python Version: 3.10
 Python Libraries: numpy, pandas, tensorflow, keras
 
+
+
+### Installation
+To install all required Python libraries, simply run the following command. This will use the provided `requirements.txt` file to set up the environment correctly.
+
+```bash
+pip install -r requirements.txt```
+
 ---
+
 
 ## Usage
 
